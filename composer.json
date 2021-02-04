@@ -1,0 +1,20 @@
+{
+    "name": "el-sheref/admin-panel",
+    "description": "Build Laravel Dashboard Admin Panel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hatem-mohamed-elsheref",
+            "email": "hatem_mohamed_elsheref@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Shefoo\\Frontend\\Dashboard\\": "src/"
+        },
+        "files": ["src/helpers/paths.php"]
+    }
+}
